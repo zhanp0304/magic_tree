@@ -66,7 +66,7 @@ class MagicTreeApplicationTests {
 
     @Test
     void testForestPreOrderTraverse() {
-        ForestUtil.preOrderTraverse(menuForestNode);
+        ForestUtil.levelOrderTraverse(menuForestNode);
         System.out.println("------------------------------");
     }
 
@@ -83,7 +83,7 @@ class MagicTreeApplicationTests {
         ForestNode<Menu> dummyRoot = new ForestNode<>(new Menu());
         dummyRoot.setDummy(true);
         dummyRoot.addChildren(rootList);
-        ForestUtil.preOrderTraverse(dummyRoot);
+        ForestUtil.levelOrderTraverse(dummyRoot);
         System.out.println("------------------------------");
     }
 

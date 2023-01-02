@@ -25,7 +25,7 @@ public class ForestUtil {
      *
      * @param forestNode root node of forest
      */
-    public static <T extends ITreeNode> void preOrderTraverse(IForestNode<T> forestNode) {
+    public static <T extends ITreeNode> void levelOrderTraverse(IForestNode<T> forestNode) {
         if (forestNode == null) {
             return;
         }
