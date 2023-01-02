@@ -15,4 +15,4 @@
 
 时间：1月份 - 3月份（看看效果如何）
 
-![img.png](tree_swdt.png)
+![img.png](tree_swdt.jpg)
