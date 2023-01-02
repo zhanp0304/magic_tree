@@ -21,7 +21,7 @@ public class ForestUtil {
     }
 
     /**
-     * pre-order traverse
+     * level-order traverse
      *
      * @param forestNode root node of forest
      */
